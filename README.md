@@ -1,6 +1,6 @@
 # Stale Bus Detector
 
-## Demo: https://www.linkedin.com/posts/md-intikhab-shahriar-hasan-143925169_dataabranalytics-dataabrengineering-infotactabrsolutions-activity-7368964714871128064-WxgI?utm_source=share&utm_medium=member_desktop&rcm=ACoAACgugIMBxbp9aesalLcUsSorWs_BtzxNjX0
+[## Demo: https://www.linkedin.com/posts/md-intikhab-shahriar-hasan-143925169_dataabranalytics-dataabrengineering-infotactabrsolutions-activity-7368964714871128064-WxgI?utm_source=share&utm_medium=member_desktop&rcm=ACoAACgugIMBxbp9aesalLcUsSorWs_BtzxNjX0](https://www.linkedin.com/feed/update/urn:li:activity:7369404926990409733/)
 
 We're happy to share with you the progress of our internship project at Infotact Solutions, where we're assigned to develop a 'Real-Time Stale-Bus Detector' data analytics engine with the help of a React app. 
 
