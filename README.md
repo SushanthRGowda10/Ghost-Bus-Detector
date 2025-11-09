@@ -1,19 +1,21 @@
-# Stale Bus Detector
-
-[## Demo: https://www.linkedin.com/posts/md-intikhab-shahriar-hasan-143925169_dataabranalytics-dataabrengineering-infotactabrsolutions-activity-7368964714871128064-WxgI?utm_source=share&utm_medium=member_desktop&rcm=ACoAACgugIMBxbp9aesalLcUsSorWs_BtzxNjX0](https://www.linkedin.com/feed/update/urn:li:activity:7369404926990409733/)
-
-We're happy to share with you the progress of our internship project at Infotact Solutions, where we're assigned to develop a 'Real-Time Stale-Bus Detector' data analytics engine with the help of a React app. 
-
-We've made the app with TransLink's GTFS-RT feed for Australia, mainly its transit information for the cities Brisbane, Gold Coast, and Sunshine Coast. 
-
-Problem Statement: To develop a real-time analytics system that identifies "ghost buses" in a public transit network—vehicles that appear on tracking apps but are not in service, are non-responsive, or are severely off-route—to provide riders with a more accurate and reliable view of the transit system.
-
-The objectives and deliverables of the project were - 
-
-• Develop a data pipeline to ingest and parse GTFS-Realtime data from a city's transit authority 
-• Build an analytics engine to detect anomalies like stale GPS data, non-movement, and significant route deviations  
-• Create a live map dashboard that visually distinguishes reliable buses from "Stale/Stationary" buses 
-
-On doing so, we've flagged all Active buses with green markers and all Stale/Stationary buses with red markers on the map, with a tooltip of the reason for their being flagged red. Besides, the user can hide red-flagged buses from the map to get information about active buses only. 
-
-The project is containerized with the help of a Docker image and deployed at Render for live usability.
+Stale Bus Detector (Real-Time Transit Analytics System)
+Demo: https://www.linkedin.com/feed/update/urn:li:activity:7369404926990409733/
+During my internship at Infotact Solutions, I worked on developing a Real-Time Stale Bus Detector, a data analytics engine and interactive React-based dashboard that monitors live transit activity using GTFS-RT feeds from TransLink (Brisbane, Gold Coast, Sunshine Coast – Australia).
+Problem Addressed
+Public transit users often rely on real-time maps that sometimes show buses which are not in service, stationary for long period, or off-route — commonly referred to as “ghost buses.”
+The goal was to build a system that flags such unreliable vehicles to improve public transit visibility and trust.
+Key Contributions & Deliverables
+Designed a data ingestion pipeline to continuously fetch and parse GTFS-Realtime transit feeds.
+Implemented anomaly detection logic to identify:
+Stale or outdated GPS updates
+Non-moving buses
+Route deviation beyond acceptable thresholds
+Built a live map dashboard where:
+Active buses → shown in Green
+Stale/Stationary buses → shown in Red with an explanation tooltip
+Users can toggle visibility of flagged buses to focus on reliable routes.
+Tech Stack
+React.js, Leaflet.js (Map Visualization)
+GTFS-RT Data, REST API Data Pipeline
+Docker for containerization
+Render for cloud deployment
